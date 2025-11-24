@@ -1,0 +1,58 @@
+| Column                        | Meaning                                                | Example                               |
+| ----------------------------- | ------------------------------------------------------ | ------------------------------------- |
+| **hotel**                     | Type of hotel: “Resort Hotel” or “City Hotel”.         | Resort Hotel                          |
+| **is_canceled**               | Whether the booking was canceled (1 = Yes, 0 = No).    | 0 (not canceled)                      |
+| **lead_time**                 | Number of days between booking date and arrival date.  | 342 (booked almost a year in advance) |
+| **arrival_date_year**         | Year of arrival.                                       | 2015                                  |
+| **arrival_date_month**        | Month of arrival.                                      | July                                  |
+| **arrival_date_week_number**  | Week number of the arrival date in the year.           | 27                                    |
+| **arrival_date_day_of_month** | Day of the month when the guest is supposed to arrive. | 1                                     |
+
+
+| Column                      | Meaning                             | Example |
+| --------------------------- | ----------------------------------- | ------- |
+| **stays_in_weekend_nights** | Number of weekend nights (Sat–Sun). | 0       |
+| **stays_in_week_nights**    | Number of week nights (Mon–Fri).    | 0 or 1  |
+| **adults**                  | Number of adults.                   | 2       |
+| **children**                | Number of children.                 | 0       |
+| **babies**                  | Number of babies.                   | 0       |
+
+
+
+
+| Column                   | Meaning                                                                                                                  | Example        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------ | -------------- |
+| **meal**                 | Type of meal booked: <br> - BB = Bed & Breakfast <br> - HB = Half Board <br> - FB = Full Board <br> - SC = Self-Catering | BB             |
+| **country**              | Guest’s country (ISO code).                                                                                              | PRT = Portugal |
+| **market_segment**       | Market category of the booking: <br> e.g., Direct, Corporate, Online TA (Travel Agency), Offline TA.                     | Direct         |
+| **distribution_channel** | How the booking was made (Direct, Corporate, TA/TO = Travel Agent/Tour Operator).                                        | Direct         |
+
+
+| Column                             | Meaning                                                  | Example |
+| ---------------------------------- | -------------------------------------------------------- | ------- |
+| **is_repeated_guest**              | Whether this customer booked before (1 = Yes, 0 = No).   | 0       |
+| **previous_cancellations**         | How many times this customer canceled before.            | 0       |
+| **previous_bookings_not_canceled** | How many times this customer completed a booking before. | 0       |
+
+
+| Column                   | Meaning                                                                              | Example      |
+| ------------------------ | ------------------------------------------------------------------------------------ | ------------ |
+| **reserved_room_type**   | Type of room the guest initially booked.                                             | C / A        |
+| **assigned_room_type**   | Room type actually assigned at check-in (can differ due to upgrades or overbooking). | C / A        |
+| **booking_changes**      | Number of changes made to the booking (e.g., date or room changes).                  | 3 / 0        |
+| **deposit_type**         | Type of deposit: <br> - No Deposit <br> - Non Refund <br> - Refundable               | No Deposit   |
+| **agent**                | Booking agent ID (if booked through an agency).                                      | 304 or blank |
+| **company**              | Company ID (if booked through a company).                                            | blank        |
+| **days_in_waiting_list** | Number of days the booking was on a waiting list before confirmation.                | 0            |
+
+
+| Column                          | Meaning                                                                                                                                                | Example   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| **customer_type**               | Type of booking: <br> - Transient: individual booking <br> - Contract: part of a group <br> - Group: multiple rooms <br> - Transient-Party: mixed type | Transient |
+| **adr**                         | Average Daily Rate (revenue per night).                                                                                                                | 75        |
+| **required_car_parking_spaces** | Number of parking spaces required.                                                                                                                     | 0         |
+| **total_of_special_requests**   | Number of special requests made by the customer.                                                                                                       | 0         |
+
+
+
+
